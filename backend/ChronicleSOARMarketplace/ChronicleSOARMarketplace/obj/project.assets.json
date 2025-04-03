@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\backend\\backend.csproj",
-      "projectName": "backend",
-      "projectPath": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\backend\\backend.csproj",
+      "projectUniqueName": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\ChronicleSOARMarketplace\\ChronicleSOARMarketplace\\ChronicleSOARMarketplace.csproj",
+      "projectName": "ChronicleSOARMarketplace",
+      "projectPath": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\ChronicleSOARMarketplace\\ChronicleSOARMarketplace\\ChronicleSOARMarketplace.csproj",
       "packagesPath": "C:\\Users\\hahahaha\\.nuget\\packages\\",
-      "outputPath": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\backend\\obj\\",
+      "outputPath": "D:\\KDR_DATA\\work\\project\\test\\soar_marketplace\\backend\\ChronicleSOARMarketplace\\ChronicleSOARMarketplace\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

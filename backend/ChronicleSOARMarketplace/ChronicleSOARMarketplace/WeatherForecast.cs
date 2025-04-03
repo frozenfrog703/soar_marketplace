@@ -1,4 +1,4 @@
-namespace backend
+namespace ChronicleSOARMarketplace
 {
     public class WeatherForecast
     {
