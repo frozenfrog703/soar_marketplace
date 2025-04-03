@@ -1,0 +1,40 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.alert-widget {
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.widget {
+  border: 1px solid #eee;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-pane {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.left-pane, .right-pane {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.malicious {
+  color: red;
+  font-weight: bold;
+}
+
+.clean {
+  color: green;
+  font-weight: bold;
+}
