@@ -1,11 +1,25 @@
+using ChronicleSOARMarketplace.Services;
+using Google.Cloud.PubSub.V1;
+using Microsoft.Extensions.FileProviders;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Load configuration values (Pub/Sub subscription, Service Account path, VirusTotal API Key, etc.)
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Register HttpClient for VirusTotal Client
+builder.Services.AddHttpClient("VirusTotalClient");
+
+// Register custom services
+builder.Services.AddSingleton<IVirusTotalClient, VirusTotalClient>();
+builder.Services.AddHostedService<IngestionService>();
+builder.Services.AddScoped<EnrichmentService>();
 
 var app = builder.Build();
 
