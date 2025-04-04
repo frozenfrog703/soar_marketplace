@@ -50,6 +50,7 @@ IoC Meta Data (Country, Tags, and Report Link).
 ### Right Pane: 
 IoC Analysis (Last Update Time and Last Analysis Results).
 
+## Testing (xUnit)
 
 # Setup Instruction
 
@@ -75,6 +76,14 @@ Install dependencies by running:
   npm install
   ng serve
 ```
+
+Testing:
+
+```bash
+  dotnet clean
+  dotnet build
+  dotnet test
+```
     
 # Project Structure
 
@@ -89,6 +98,7 @@ Install dependencies by running:
                 /Properties
                 /Services
                 /Utils
+        /ChronicleSOARMarketplace.Test
     /Frontend      (contains Angular frontend code)
         /src
 
