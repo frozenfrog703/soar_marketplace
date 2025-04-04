@@ -21,7 +21,6 @@ namespace ChronicleSOARMarketplace.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Alert>> GetAlerts()
         {
-            Console.WriteLine("HERE");
             var alerts = new List<Alert>();
             var outputDir = _configuration["Output:Directory"];
             if (Directory.Exists(outputDir))

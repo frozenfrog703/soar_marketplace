@@ -17,7 +17,7 @@ namespace ChronicleSOARMarketplace.Services
             _logger = logger;
         }
 
-        public async Task<Alert> EnrichAlertAsync(Alert alert)
+        public virtual async Task<Alert> EnrichAlertAsync(Alert alert)
         {
             int maliciousCount = 0;
             for (int i = 0; i < alert.IoCs.Count; i++)
