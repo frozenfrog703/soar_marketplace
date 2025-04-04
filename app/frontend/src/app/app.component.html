@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Enriched IoCs</h1>
+  <div class="alert-widget" *ngFor="let alert of alerts">
+    <h2>Alert ID: {{ alert.alertId }} (Severity: {{ alert.severity }}%)</h2>
+    <div class="ioc" *ngFor="let ioc of alert.ioCs">
+      <div class="widget">
+        <div class="top-pane">
+          <strong>{{ ioc.identifier }}</strong> -
+          <span [ngClass]="{ 'malicious': ioc.isMalicious, 'clean': !ioc.isMalicious }">
+            {{ ioc.isMalicious ? 'Malicious' : 'Not Malicious' }}
+          </span>
+        </div>
+        <div style="display: flex">
+          <div class="left-pane">
+            <p><strong>Country:</strong> {{ ioc.country }}</p>
+            <p><strong>Tags:</strong> {{ ioc.tags.join(', ') }}</p>
+            <p><strong>Report:</strong> <a [href]="ioc.reportLink" target="_blank">View</a></p>
+          </div>
+          <div class="right-pane">
+            <p><strong>Last Update:</strong> {{ ioc.lastModificationDate }}</p>
+            <p><strong>Analysis Stats:</strong>
+              Harmless: {{ ioc.lastAnalysisStats.harmless }},
+              Malicious: {{ ioc.lastAnalysisStats.malicious }},
+              Suspicious: {{ ioc.lastAnalysisStats.suspicious }},
+              Timeout: {{ ioc.lastAnalysisStats.timeout }},
+              Undetected: {{ ioc.lastAnalysisStats.undetected }}
+            </p>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

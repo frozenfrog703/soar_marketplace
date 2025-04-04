@@ -1,0 +1,24 @@
+{
+  "AlertId": "d66c5676-9bba-4fee-843e-be739f981e3b",
+  "Severity": 0,
+  "IoCs": [
+    {
+      "Identifier": "68.99.106.27",
+      "IsMalicious": false,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:30:16.5274467Z",
+      "LastAnalysisStats": {
+        "Harmless": 3,
+        "Malicious": 0,
+        "Suspicious": 0,
+        "Timeout": 0,
+        "Undetected": 0
+      },
+      "Tags": [
+        "clean"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/68.99.106.27/detection"
+    }
+  ],
+  "ReceivedAt": "2025-04-03T16:30:16.5255987Z"
+}

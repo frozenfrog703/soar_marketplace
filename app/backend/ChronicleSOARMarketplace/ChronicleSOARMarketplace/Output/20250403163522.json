@@ -1,0 +1,96 @@
+{
+  "AlertId": "307a8bb0-f5eb-40c5-9fda-3ef5ab8dd40a",
+  "Severity": 80,
+  "IoCs": [
+    {
+      "Identifier": "140.5.146.0",
+      "IsMalicious": true,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:35:22.2610555Z",
+      "LastAnalysisStats": {
+        "Harmless": 2,
+        "Malicious": 4,
+        "Suspicious": 1,
+        "Timeout": 0,
+        "Undetected": 5
+      },
+      "Tags": [
+        "suspicious",
+        "malware"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/140.5.146.0/detection"
+    },
+    {
+      "Identifier": "84.4.206.246",
+      "IsMalicious": true,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:35:22.2610593Z",
+      "LastAnalysisStats": {
+        "Harmless": 8,
+        "Malicious": 2,
+        "Suspicious": 1,
+        "Timeout": 0,
+        "Undetected": 1
+      },
+      "Tags": [
+        "suspicious",
+        "malware"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/84.4.206.246/detection"
+    },
+    {
+      "Identifier": "206.105.137.129",
+      "IsMalicious": false,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:35:22.2610648Z",
+      "LastAnalysisStats": {
+        "Harmless": 3,
+        "Malicious": 0,
+        "Suspicious": 1,
+        "Timeout": 0,
+        "Undetected": 6
+      },
+      "Tags": [
+        "clean"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/206.105.137.129/detection"
+    },
+    {
+      "Identifier": "253.227.170.141",
+      "IsMalicious": true,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:35:22.2610659Z",
+      "LastAnalysisStats": {
+        "Harmless": 0,
+        "Malicious": 3,
+        "Suspicious": 0,
+        "Timeout": 0,
+        "Undetected": 6
+      },
+      "Tags": [
+        "suspicious",
+        "malware"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/253.227.170.141/detection"
+    },
+    {
+      "Identifier": "245.246.206.147",
+      "IsMalicious": true,
+      "Country": "US",
+      "LastModificationDate": "2025-04-03T16:35:22.2610837Z",
+      "LastAnalysisStats": {
+        "Harmless": 5,
+        "Malicious": 4,
+        "Suspicious": 1,
+        "Timeout": 0,
+        "Undetected": 1
+      },
+      "Tags": [
+        "suspicious",
+        "malware"
+      ],
+      "ReportLink": "https://www.virustotal.com/gui/ip-address/245.246.206.147/detection"
+    }
+  ],
+  "ReceivedAt": "2025-04-03T16:35:22.2610446Z"
+}
